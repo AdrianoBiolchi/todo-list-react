@@ -28,3 +28,5 @@ let Task  = new Schema(
         },
     }
 );
+
+module.exports = mongoose.model('Task', Task);
